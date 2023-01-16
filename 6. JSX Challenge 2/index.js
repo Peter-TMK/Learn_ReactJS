@@ -7,28 +7,23 @@
 //         - Inside the URL, have three li's for 'pricing', 'about' and 'contact'
 //     - Dont worry about styling just yet
 
-// const nav = document.createElement('nav')
-// const h1 = document.createElement('h1')
-// const ul = document.createElement('ul')
-// h1.textContent = "Excel Blog"
-// ul.textContent = 'pricing'
-// ul.textContent = 'about'
-// ul.textContent = 'contact'
-// document.getElementById("nav").append(h1)
-// document.getElementById("h1").append(ul)
 
 const page = (
-    <nav>
+    <div>
         <h1>
             Excel's Website
         </h1>
+        <p>Enjoy Tech all the way</p>
+        <p>...have fun!</p>
         <ul>
             <li>pricing</li>
             <li>about</li>
             <li>contact</li>
         </ul>
-    </nav>
+    </div>
 )
 
-
 ReactDOM.render(page, document.querySelector('#root'))
+
+// using append()
+// document.querySelector('#root').append(JSON.stringify(page))
