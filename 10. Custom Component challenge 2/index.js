@@ -12,14 +12,14 @@
 function MyReact(){
     return (
         // <></> this is called fragment tags
-        <> 
+        <div> 
             <header>
                 <nav>
                     <img src='../7. Mark-up project\react_logo.png' width='70px'></img>
                 </nav>
             </header>
             <h1>
-                Reasons I love React
+                Reasons why I love React
             </h1>
             <ol>
                 <li>React is fun</li>
@@ -28,9 +28,9 @@ function MyReact(){
                 <li>For jobs in software engineering</li>
             </ol>
             <footer>
-                &#169; 2023 Wey development. All rights reserved.
+                <small> &#169; 2023 Wey development. All rights reserved.</small>
             </footer>
-        </>
+        </div>
     )
 }
 ReactDOM.render(<MyReact />, document.querySelector('#root'))
