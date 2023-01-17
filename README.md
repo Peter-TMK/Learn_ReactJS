@@ -1,3 +1,3 @@
 # Learn_ReactJS
 
-Resource: scrimba.com
+Resource: https://scrimba.com/
