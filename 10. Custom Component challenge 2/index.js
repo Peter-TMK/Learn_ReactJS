@@ -11,7 +11,8 @@
 
 function MyReact(){
     return (
-        <div>
+        // <></> this is called fragment tags
+        <> 
             <header>
                 <nav>
                     <img src='../7. Mark-up project\react_logo.png' width='70px'></img>
@@ -26,7 +27,10 @@ function MyReact(){
                 <li>React is necessary for integrating with the backend in an app</li>
                 <li>For jobs in software engineering</li>
             </ol>
-        </div>
+            <footer>
+                &#169; 2023 Wey development. All rights reserved.
+            </footer>
+        </>
     )
 }
 ReactDOM.render(<MyReact />, document.querySelector('#root'))
