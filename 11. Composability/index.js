@@ -38,7 +38,7 @@ function Footer(){
     )
 }
 
-function MyReact(){
+function MyPage(){
     return (
         // <></> this is called fragment tags
         <div>
@@ -49,4 +49,4 @@ function MyReact(){
     )
 }
 
-ReactDOM.render(<MyReact />, document.querySelector('#root'))
+ReactDOM.render(<MyPage />, document.querySelector('#root'))
